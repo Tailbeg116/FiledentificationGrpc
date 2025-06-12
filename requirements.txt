@@ -1,3 +1,4 @@
 grpcio-tools
 grpcio
 magika
+pywin32
