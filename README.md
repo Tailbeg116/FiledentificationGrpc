@@ -81,3 +81,8 @@ You can call this gRPC service from any language that supports gRPC (such as C#,
 ## License
 
 This project is licensed under the MIT License.
+
+python src/grpc_windows_service.py install
+python src/grpc_windows_service.py start
+python src/grpc_windows_service.py stop
+python src/grpc_windows_service.py remove
