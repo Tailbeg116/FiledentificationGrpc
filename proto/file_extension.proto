@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service FileExtension {
+  rpc GetFileExtension (FilePathRequest) returns (FileExtensionResponse);
+}
+
+message FilePathRequest {
+  string file_path = 1;
+}
+
+message FileExtensionResponse {
+  string extension = 1;
+}
